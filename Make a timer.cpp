@@ -1,13 +1,16 @@
 //************************************ Efficient Learning world ****************************************
+//The complete explanation of this code is available on youtube channel named efficient learning world
 #include<iostream>
 #include<windows.h>
 #include<conio.h>
 using namespace std;
+//Function to display time count down on console
 void Display_Time()
 {
 	int hr=0,min=0,sec=0;
 	while(true)
 	{
+		
 		Sleep(30);
 		Beep(900,100);
 		system("cls");
